@@ -82,4 +82,3 @@ $ kubectl get nodes
 CONFIGURE
 }
 
-tributes available for output
