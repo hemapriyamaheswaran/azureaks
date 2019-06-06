@@ -32,10 +32,10 @@ resource "azurerm_kubernetes_cluster" "aks_demo" {
     os_disk_size_gb = 30
   }
 
-  service_principal {
-    client_id     = "790bb7ef-79ea-4fbb-b67e-5fc45a3196bd"
-    client_secret = "16a24a3e-3da7-40bc-90ac-e3fa3fc9731b"
-  }
+#  service_principal {
+#    client_id     = "790bb7ef-79ea-4fbb-b67e-5fc45a3196bd"
+#    client_secret = "16a24a3e-3da7-40bc-90ac-e3fa3fc9731b"
+#  }
 
   tags {
     Environment = "Production"
