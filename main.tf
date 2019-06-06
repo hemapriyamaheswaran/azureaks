@@ -33,8 +33,8 @@ resource "azurerm_kubernetes_cluster" "aks_demo" {
   }
 
   service_principal {
-    client_id     = "e6bc1045-4417-4717-b48a-6b18b956d0b3"
-    client_secret = "70137cc5-44d1-42de-bf83-a5dce0f2a2e0"
+    client_id     = "790bb7ef-79ea-4fbb-b67e-5fc45a3196bd"
+    client_secret = "16a24a3e-3da7-40bc-90ac-e3fa3fc9731b"
   }
 
   tags {
